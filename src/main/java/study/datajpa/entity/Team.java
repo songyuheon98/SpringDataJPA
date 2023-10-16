@@ -13,7 +13,7 @@ import java.util.List;
 @Getter @Setter
 @NoArgsConstructor
 @ToString(of = {"id", "name"})
-public class Team extends JpaBaseEntity{
+public class Team extends BaseEntity{
 
     @Id    @GeneratedValue
     @Column(name = "team_id")
